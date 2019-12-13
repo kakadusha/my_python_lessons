@@ -5,15 +5,15 @@
 
 import telebot
 
-bot = telebot.TeleBot("228216676:AAF4DDbdh-MTciXHuWG-d3JeJOi1ZTI-_A0")
+bot = telebot.TeleBot("226993332:AAF7zUPzN-NcmdgW5R0hzhItTCtD1RsvjYs")
 # 206719458:AAGVut78WMo8V_XieOqqAo6HSjWpn0k1nUY  -- heco bot tocken (@HBCoachBot)
 # 228216676:AAF4DDbdh-MTciXHuWG-d3JeJOi1ZTI-_A0  -- heprot bot tocken (@HeProtBot) 
-
+# 226993332:AAF7zUPzN-NcmdgW5R0hzhItTCtD1RsvjYs  -- AsBot  tocken(@AstrologRubot)
 
 from telebot import apihelper
 
-# Витин прокси: socks5://10.8.5.20:9050
-apihelper.proxy = {'https':'socks5://10.8.5.20:9050'}
+# прокси
+apihelper.proxy = {'https':'socks5://127.0.0.1:9100'}
                            
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
