@@ -5,10 +5,7 @@
 
 import telebot
 
-bot = telebot.TeleBot("226993332:AAF7zUPzN-NcmdgW5R0hzhItTCtD1RsvjYs")
-# 206719458:AAGVut78WMo8V_XieOqqAo6HSjWpn0k1nUY  -- heco bot tocken (@HBCoachBot)
-# 228216676:AAF4DDbdh-MTciXHuWG-d3JeJOi1ZTI-_A0  -- heprot bot tocken (@HeProtBot) 
-# 226993332:AAF7zUPzN-NcmdgW5R0hzhItTCtD1RsvjYs  -- AsBot  tocken(@AstrologRubot)
+bot = telebot.TeleBot("(двагуся)699(трижопы)2:AAF7zUPzN-NcmdgW5R0hzhItTCtD1RsvjYs")
 
 from telebot import apihelper
 
