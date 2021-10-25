@@ -10,6 +10,6 @@ def my_function(number):
 
 print(my_function.__doc__)
 
-
+print(f"-----{__name__}-----")
 
 print(__name__.__doc__)

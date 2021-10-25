@@ -17,8 +17,10 @@ nums = s.split()
 
 for e in nums:
 	c[e] += 1
-	                            	
-print("Теперь сортированный список: ", nums)
+      	
+num_sort = nums  
+num_sort.sort()
+print("Теперь сортированный список: ", num_sort)
 print("Counter:                     ", c)
 print("Counter.values:              ", c.values())
 print("Elements:                    ", list(c))
